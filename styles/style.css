@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav >span{
+    display: flex;
+    list-style: none;
+    
+}
+nav > span > li{
+    margin-right: 15px;
+}
+nav >li{
+    list-style: none;
+}
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.login-form input{
+    margin-top: 30px;
+}

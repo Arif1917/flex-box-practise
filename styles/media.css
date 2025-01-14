@@ -1,0 +1,26 @@
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.player img{
+    width: 100%;
+}
+.player{
+    border: 2px solid tomato;
+    border-radius:13px ;
+    padding: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .image-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .image-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
